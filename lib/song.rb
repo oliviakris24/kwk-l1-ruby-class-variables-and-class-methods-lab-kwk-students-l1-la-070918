@@ -15,7 +15,9 @@ class Song
    @@artists.uniq
  end
 
- def 
+ def self.genre_count
+   @@genre_1 = {}
+   
 
  attr_accessor :name, :artist, :genre
 
